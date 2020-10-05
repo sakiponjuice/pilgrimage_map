@@ -37,6 +37,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="455" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601898384461">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="455" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1601898384461" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1601800051178">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -53,5 +57,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601800051177" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601899305293">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601899305293" />
   </component>
 </project>
