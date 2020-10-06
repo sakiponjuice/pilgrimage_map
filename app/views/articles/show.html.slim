@@ -1,7 +1,56 @@
-p
+header
+  h1
+    a href="/" 聖地巡礼map
+  nav.pc-nav
+    ul
+      li
+        a href="#" 記事一覧
+      li
+        a href="#" 画像一覧
+      li
+        a href="#"
+      li
+        a href="#"ログイン
+
+
+div#wrapper
+  div.left-column
+    ul
+      li 最新の記事
+    ul
+      li
+        a href= "#" 俺ガイル最終回
+    ul
+      li
+        a href= "#" リゼロ最終回
+    ul
+      li
+        a href= "#" ごちうさ一話
+    ul
+      li
+        a href= "#" 安達としまむら一話
+
+div#wrapper2
+  div.left-column
+    ul
+      li テーマ
+    ul
+      li
+        a href= "#" 俺ガイル
+    ul
+      li
+        a href= "#" リゼロ
+    ul
+      li
+        a href= "#" ごちうさ
+    ul
+      li
+        a href= "#" 安達としまむら
+
+body
   strong
     | Title:
-  = @article.title
+  = @article.title.to_s
 / マップを表示
 #map style='height: 500px; width: 500px;'
 
@@ -19,17 +68,17 @@ javascript:
         // マップを作成
         map = new google.maps.Map(document.getElementById('map'), {
             // マップの中心に表示する場所の緯度経度を指定
-            center: { lat: 40.7828, lng:-73.9653 },
+            center: {lat: 40.7828, lng: -73.9653},
             zoom: 12,
         });
 
         // マーカーを立てる場所の緯度経度を指定
         marker = new google.maps.Marker({
-            position: { lat: 40.7828, lng:-73.9653 },
+            position: {lat: 40.7828, lng: -73.9653},
             map: map
         });
     }
-p
+body
   strong
     | Text:
   = @article.content.to_s
